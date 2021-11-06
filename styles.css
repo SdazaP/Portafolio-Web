@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #030304;
+    opacity: 1;
+    background-image:  radial-gradient(#ffeaa7 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#ffeaa7 1.1500000000000001px, #030304 1.1500000000000001px);
+    background-size: 46px 46px;
+    background-position: 0 0,23px 23px;
+    background-attachment: fixed;
+}
+
+.hero{
+    background: url(images/wallpaper-4106667.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+.hero_container{
+    height: 100vh;
+}
+
+/* Barra */
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+   padding: 1em; 
+}
+
+ul li a{
+    padding: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.head ul li .yellow{
+    border-bottom: 5px solid #ffeaa7;
+}
+
+.head ul li a:hover{
+    border-bottom: 5px solid #ffeaa7;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    height: 10vh;
+}
+
+.logo{
+    width: 80px;
+}
+
+/* ventana principal */
+
+.header{
+    height: 80vh;
+    padding: 9em 5em;
+}
+
+.header_text{
+    text-align: left;
+}
+
+.header_text .yellow{
+    color: #ffeaa7;
+}
+
+.header_title{
+    margin: 1em 0;
+    font-size: 3em;
+}
+
+.header_title a{
+    color: #ffeaa7;
+    text-shadow: 0 0 30px #ffeaa7;
+}
+
+.header_t{
+    font-size: 1em;
+}
+
+
+
+.ref{
+    margin-top: 1em;
+}
+
+/* Main */
+/* Datos */
+
+.main{
+    padding: 4em 2em 0 2em;
+}
+
+.main_about{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    margin: 0em auto;
+}
+
+.about_img{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em;
+}
+.about_img .img{
+    height: 80%;
+    vertical-align: middle;
+    filter: grayscale(100%);
+}
+
+.about_work .about{
+    width: 60%;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_description{
+    width: 80%;
+    margin: 0em auto;
+    color: white;
+   
+}
+
+.about_description .about_h2{
+    font-size: 1em;
+    color: #ffeaa7;
+    text-shadow: 0 0 30px #ffeaa7;
+}
+
+.about_description .about_title{
+    margin: 0.5em 0;
+    margin-bottom: 0.3em;
+}
+
+.line{
+    border-color: transparent;
+    background-color: #ffeaa7;
+    height: 5px;
+    width: 20%;
+    margin: 0 0 1em 0;
+    box-shadow: 0 0 20px #ffeaa7;
+}
+
+.about_text{
+    text-align: justify;
+    line-height: 30px;
+}
+
+.about_social{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    border: 3px solid #ffeaa7;
+    box-shadow: 0 0 20px #ffeaa7;
+}
+
+.about_social ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style: none;
+}
+
+.about_social .mail::after{
+    content: " sdazap26@gmail.com";
+}
+
+.about_social ul li a{
+    color: #ffeaa7;
+}
+
+/* about work */
+
+.main_two{
+    height: 130vh;
+    padding: 4em 2em;
+    background-color: #000;
+    opacity: 1;
+    background-image: radial-gradient(#ffeaa7 0.65px, #000 0.65px);
+    background-size: 13px 13px;
+    background-attachment: fixed;
+}
+
+.main_two .about_work{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.work_text{
+    color: white;
+}
+
+.text_h1{
+    margin: 0.5em 0;
+}
+
+.work_text .text_h3{
+    font-size: 1em;
+    color: #ffeaa7;
+    text-shadow: 0 0 30px #ffeaa7;
+}
+
+
+.portafolio {
+    padding: 1em;
+    border: 3px solid #ffeaa7;
+    text-align: center;
+    height: 50%;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.portafolio:hover{
+    box-shadow: 0 0 30px #ffeaa7;
+    text-shadow: 0 0 30px #ffeaa7;
+    transition: .5;
+}
+
+.portafolio a{
+    color: white;
+}
+
+
+
+
+/* bloques */
+
+.blocks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blocks div{
+    padding: 1em;
+    height: 400px;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.blocks div:hover{
+    text-shadow: 0 0 30px white;
+    transition: .5s;
+}
+
+.blocks img{
+    width: 10em;
+    vertical-align: middle;
+}
+
+.blocks h1{
+    color: white;
+}
+
+.blocks hr{
+    border-color: transparent;
+    background-color: white;
+    height: 3px;
+    margin: 0 0 1em 0;
+}
+
+.blocks p{
+    color: white;
+}
+
+/* Banner */
+
+.banner{
+    width: 90%;
+    margin: 5em auto;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 0 15px 30px rgba(0,0,0,30), 0 11px 8px rgba(0,0,0,22);
+}
+
+.banner .content{
+    height: 20vh;
+    padding: 2em;
+    text-align: center;
+    background: url(images/lion-4133358_1920.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+.banner h1,
+.banner p{
+    margin: 0.5em;
+}
+
+.banner h1{
+    font-size: 40px;
+}
+
+.banner .yellow{
+    color: #ffeaa7;
+}
+
+/* footer */
+
+.footer{
+    height: 50vh;
+    padding: 4em 2em;
+}
+
+.footer_p{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer_text h1{
+    color: #ffeaa7;
+    text-shadow: 0px 0px 30px #ffeaa7;
+}
+
+.footer_text p{
+    color: white;
+    margin: 2em 0;
+}
+
+.footer_social{
+    display: flex;
+    gap: 2em;
+}
+
+.footer_img .social{
+    width: 25em;
+}
+
+.footer_end{
+    margin-top: 1em;
+}
+
+.footer_end p{
+    padding: 2em 0;
+    color: white;
+    text-align: center;
+}
+
+.footer_end .end::after{
+    content: " sdazap26@gmail.com ";
+}
+
+
+
+
